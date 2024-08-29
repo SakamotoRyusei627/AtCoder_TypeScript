@@ -1,0 +1,13 @@
+// inputに入力データ全体が入る
+function Main(input:any):void {
+    console.log(input)
+    // let all = input.split('\n')
+
+
+    const result = 'test'
+    // console.log(result)
+    require("fs").writeFileSync("output.txt", result);
+}
+
+//*この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));

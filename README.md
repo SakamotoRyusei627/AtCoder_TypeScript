@@ -19,6 +19,8 @@ npm run start
 <span style="color: red; ">注意:</span>
  提出時には、require("fs").writeFileSync("output.txt", result); をコメントアウトし、console.log で出力するようにしてください。
 <br>
+<span style="color: red; ">提出時の選択 TypeScript 5.1 (Node.js 18.16.1)</span>
+<br>
 <br>
 <br>
 ### 複数のテストケースを使用する場合

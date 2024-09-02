@@ -1,5 +1,5 @@
 // inputに入力データ全体が入る
-function Main(input: any): void {
+function Main(input: string): void {
   console.log(input)
   // let all = input.split('\n')
 

@@ -35,7 +35,7 @@ function multipleMain(input: string, outputFileName: string) {
   console.log(`Execution Time: ${end - start} ms`);
   console.log(outputFileName);
   // score += resultOutputArr!.length;
-  if (outputFileName === "output/1999.txt") {
+  if (outputFileName === "output/0999.txt") {
     console.log(score / 1000);
   }
 }
